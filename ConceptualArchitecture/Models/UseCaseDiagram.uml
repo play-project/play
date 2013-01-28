@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="UseCaseDiagram">
+    <ownedComment xmi:id="_EZoNwNJFEeCKVYZMjUBmqw">
+      <body>PLAY Platform</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1KUwAM_pEeCXfqKSmL1vEA" name="Platform Editor"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1fMMwM_pEeCXfqKSmL1vEA" name="Event Publisher"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1wCsMM_pEeCXfqKSmL1vEA" name="Event Subscriber"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9c7fYM_pEeCXfqKSmL1vEA" name="create new pattern">
+      <include xmi:id="_JstZgM_rEeCXfqKSmL1vEA" name="Include1" addition="_tITk4M_qEeCXfqKSmL1vEA"/>
+      <include xmi:id="_KFtvYM_rEeCXfqKSmL1vEA" name="Include2" addition="_wUd-4M_qEeCXfqKSmL1vEA"/>
+      <include xmi:id="_N3-gEM_rEeCXfqKSmL1vEA" name="Include3" addition="_xZGEoM_qEeCXfqKSmL1vEA"/>
+      <include xmi:id="_OO4kMM_rEeCXfqKSmL1vEA" name="Include4" addition="_LF-5kM_rEeCXfqKSmL1vEA"/>
+      <include xmi:id="_mXAawM_rEeCXfqKSmL1vEA" name="Include5" addition="_iBdW0M_rEeCXfqKSmL1vEA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_PkFSAM_qEeCXfqKSmL1vEA" name="publish event"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_SIE4wM_qEeCXfqKSmL1vEA" name="subscribe to topic"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_U2OhEM_qEeCXfqKSmL1vEA" name="" memberEnd="_U2OhEc_qEeCXfqKSmL1vEA _U2OhFM_qEeCXfqKSmL1vEA">
+      <ownedEnd xmi:id="_U2OhEc_qEeCXfqKSmL1vEA" name="publisher" type="_1fMMwM_pEeCXfqKSmL1vEA" association="_U2OhEM_qEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U2OhEs_qEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U2OhE8_qEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_U2OhFM_qEeCXfqKSmL1vEA" name="publish event" type="_PkFSAM_qEeCXfqKSmL1vEA" association="_U2OhEM_qEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U2OhFc_qEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U2OhFs_qEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_fLz00M_qEeCXfqKSmL1vEA" name="" memberEnd="_fLz00c_qEeCXfqKSmL1vEA _fLz01M_qEeCXfqKSmL1vEA">
+      <ownedEnd xmi:id="_fLz00c_qEeCXfqKSmL1vEA" name="editor" type="_1KUwAM_pEeCXfqKSmL1vEA" association="_fLz00M_qEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fLz00s_qEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fLz008_qEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_fLz01M_qEeCXfqKSmL1vEA" name="create new pattern" type="_9c7fYM_pEeCXfqKSmL1vEA" association="_fLz00M_qEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fLz01c_qEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fLz01s_qEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lk-WUM_qEeCXfqKSmL1vEA" name="" memberEnd="_lk-WUc_qEeCXfqKSmL1vEA _lk-WVM_qEeCXfqKSmL1vEA">
+      <ownedEnd xmi:id="_lk-WUc_qEeCXfqKSmL1vEA" name="subscribe to stream" type="_SIE4wM_qEeCXfqKSmL1vEA" association="_lk-WUM_qEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lk-WUs_qEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lk-WU8_qEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_lk-WVM_qEeCXfqKSmL1vEA" name="subscriber" type="_1wCsMM_pEeCXfqKSmL1vEA" association="_lk-WUM_qEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_lk-WVc_qEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lk-WVs_qEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_tITk4M_qEeCXfqKSmL1vEA" name="check permissions"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_wUd-4M_qEeCXfqKSmL1vEA" name="check uniqueness"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xZGEoM_qEeCXfqKSmL1vEA" name="create CEPAT"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LF-5kM_rEeCXfqKSmL1vEA" name="create space"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iBdW0M_rEeCXfqKSmL1vEA" name="create topic"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nijA0M_rEeCXfqKSmL1vEA" name="" memberEnd="_nijA0c_rEeCXfqKSmL1vEA _nijA1M_rEeCXfqKSmL1vEA">
+      <ownedEnd xmi:id="_nijA0c_rEeCXfqKSmL1vEA" name="create topic" type="_iBdW0M_rEeCXfqKSmL1vEA" association="_nijA0M_rEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nijA0s_rEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nijA08_rEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_nijA1M_rEeCXfqKSmL1vEA" name="subscribe to topic" type="_SIE4wM_qEeCXfqKSmL1vEA" association="_nijA0M_rEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nijA1c_rEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nijA1s_rEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_qq-KUM_rEeCXfqKSmL1vEA" name="" memberEnd="_qq-KUc_rEeCXfqKSmL1vEA _qq-KVM_rEeCXfqKSmL1vEA">
+      <ownedEnd xmi:id="_qq-KUc_rEeCXfqKSmL1vEA" name="publish event" type="_PkFSAM_qEeCXfqKSmL1vEA" association="_qq-KUM_rEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qq-KUs_rEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qq-KU8_rEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_qq-KVM_rEeCXfqKSmL1vEA" name="subscriber" type="_1wCsMM_pEeCXfqKSmL1vEA" association="_qq-KUM_rEeCXfqKSmL1vEA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qq-KVc_rEeCXfqKSmL1vEA" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qq-KVs_rEeCXfqKSmL1vEA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

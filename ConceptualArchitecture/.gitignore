@@ -1,0 +1,16 @@
+.settings/
+bin/
+etc/
+target/
+*.releaseBackup
+.DS_Store
+.checkstyle
+.checkstyle-rules.xml
+.classpath
+.project
+.wtpmodules
+hs_err_pid*.log
+release.properties
+server.pid
+system.out
+velocity.log*

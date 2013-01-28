@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA">
+  <packagedElement xmi:type="uml:Package" xmi:id="_w8IxIM37EdqwVrslYOdUDA" name="ClassDiagram">
+    <packagedElement xmi:type="uml:Class" xmi:id="_XSVbADnoEeCLV7Wf07jbDw" name="GovernanceApiRequest">
+      <ownedAttribute xmi:id="_CWwjgDnpEeCLV7Wf07jbDw" name="Query"/>
+      <ownedAttribute xmi:id="_HoJkoDnpEeCLV7Wf07jbDw" name="ELA"/>
+      <ownedAttribute xmi:id="_LKrQMDnpEeCLV7Wf07jbDw" name="StreamID"/>
+      <ownedAttribute xmi:id="_QZrrsDnpEeCLV7Wf07jbDw" name="ACL"/>
+      <ownedAttribute xmi:id="_ZzXX4DnpEeCLV7Wf07jbDw" name="SourceID"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3b1HADnoEeCLV7Wf07jbDw" name="StreamManagementApiReply"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rucdYDnpEeCLV7Wf07jbDw" name="QueryRequest">
+      <ownedAttribute xmi:id="_wAm2IDnpEeCLV7Wf07jbDw" name="Query"/>
+      <ownedAttribute xmi:id="_Qmj0oDnqEeCLV7Wf07jbDw" name="StreamID"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tQ3SYDnpEeCLV7Wf07jbDw" name="QueryReply"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BXAhQDnqEeCLV7Wf07jbDw" name="DcepManagementApiRequest">
+      <ownedAttribute xmi:id="_JPlAADnqEeCLV7Wf07jbDw" name="ELA"/>
+      <ownedAttribute xmi:id="_Oxg-kDnqEeCLV7Wf07jbDw" name="StreamID"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Fh5NUDnqEeCLV7Wf07jbDw" name="DcepManagerApiReply"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WIt1oDnqEeCLV7Wf07jbDw" name="ManageEventPatternApiRequest">
+      <ownedAttribute xmi:id="_aEqGwDnqEeCLV7Wf07jbDw" name="Query"/>
+      <ownedAttribute xmi:id="_cWwsQDnqEeCLV7Wf07jbDw" name="StreamID"/>
+      <ownedAttribute xmi:id="_lBg14DnqEeCLV7Wf07jbDw" name="SubscriptionList"/>
+      <ownedAttribute xmi:id="_BVAEMDnsEeCLV7Wf07jbDw" name="ELA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hEz6UDnrEeCLV7Wf07jbDw" name="ManageQueryApiRequest">
+      <ownedAttribute xmi:id="_jGuuwDnrEeCLV7Wf07jbDw" name="StreamID"/>
+      <ownedAttribute xmi:id="_mk6F0DnrEeCLV7Wf07jbDw" name="Query"/>
+      <ownedAttribute xmi:id="_nx9u0DnrEeCLV7Wf07jbDw" name="ELA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JHAn8DnsEeCLV7Wf07jbDw" name="PublishApiRequest">
+      <ownedAttribute xmi:id="_Ldq9UDnsEeCLV7Wf07jbDw" name="Events"/>
+      <ownedAttribute xmi:id="_M8Dm4DnsEeCLV7Wf07jbDw" name="StreamID"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iJ3BYDnsEeCLV7Wf07jbDw" name="EventCloudManagerApiRequest">
+      <ownedAttribute xmi:id="_mDdwMDnsEeCLV7Wf07jbDw" name=""/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_i7DNwDnsEeCLV7Wf07jbDw" name="StreamManagementApiRequest"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HyAucDntEeCLV7Wf07jbDw" name="PutGetApiRequest">
+      <ownedAttribute xmi:id="_J_RQMDntEeCLV7Wf07jbDw" name="Query"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OqaJoDntEeCLV7Wf07jbDw" name="PutGetApiReply">
+      <ownedAttribute xmi:id="_RgBE0DntEeCLV7Wf07jbDw" name="Triples"/>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
